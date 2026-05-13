@@ -3,6 +3,9 @@ package Relasi;
 public class Mobil {
     private Engine e;
     private int status;
+    public Mobil(){
+        e = new Engine();
+    }
     public void setEngine(Engine e){
         this.e=e;
     }
